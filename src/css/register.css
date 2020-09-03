@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto:wght@400;500&display=swap');
+
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reg-left{
+    width: 50%;
+    height: 100vh;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.reg-form{
+    width: 60%;
+    height: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; 
+}
+
+.header{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.reg-form h4{
+    color: gray;
+    font-weight: lighter;
+}
+
+.reg-input{
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.reg-input input{
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    background: none;
+    width: 90%;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+.reg-submit{
+    width: 100%;
+    padding: 15px 10px;
+}
+.reg-submit input{
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #FE0000;
+    box-shadow: 3px 3px 3px #b15a5a;
+    color: white;
+    transition: background-color .4s;
+}
+.reg-submit input:hover{
+    background-color: #bb0303;
+    box-shadow: 1px 1px 1px #b47474;
+}
+
+.reg-submit a{
+    color: black;
+    margin-left: 25px;
+}
+
+.reg-right{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-image: url('../img/reg-bg-min1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.err_msg{
+    color: red;
+}
+
+
+@media only screen and (max-width:480px){
+    .reg-right{
+        display: none;
+    }
+    .reg-left{
+        width: 100%;
+    }
+    .reg-form{
+        width: 90vw;
+        height: 80vh;
+    }
+}

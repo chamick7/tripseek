@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto:wght@400;500&display=swap');
+
+
+
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-left{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-image: url('../img/login-bg-min1.jpg');
+    background-size: cover;
+    background-position:bottom;
+}
+
+.login-right{
+    width: 50%;
+    height: 100vh;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+
+
+
+
+@media only screen and (max-width:480px){
+    .login-left{
+        display: none;
+    }
+    .login-right{
+        width: 100%;
+    }
+    .reg-form{
+        width: 90vw;
+        height: 80vh;
+    }
+}
