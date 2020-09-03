@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tripseek/static/css/main.7e10d5a9.chunk.css",
+    "main.js": "/tripseek/static/js/main.f6c2ee89.chunk.js",
+    "main.js.map": "/tripseek/static/js/main.f6c2ee89.chunk.js.map",
+    "runtime-main.js": "/tripseek/static/js/runtime-main.b9e59033.js",
+    "runtime-main.js.map": "/tripseek/static/js/runtime-main.b9e59033.js.map",
+    "static/js/2.3f772741.chunk.js": "/tripseek/static/js/2.3f772741.chunk.js",
+    "static/js/2.3f772741.chunk.js.map": "/tripseek/static/js/2.3f772741.chunk.js.map",
+    "index.html": "/tripseek/index.html",
+    "precache-manifest.1d74bc735107a0c0bebb7a5e117e2f01.js": "/tripseek/precache-manifest.1d74bc735107a0c0bebb7a5e117e2f01.js",
+    "service-worker.js": "/tripseek/service-worker.js",
+    "static/css/main.7e10d5a9.chunk.css.map": "/tripseek/static/css/main.7e10d5a9.chunk.css.map",
+    "static/js/2.3f772741.chunk.js.LICENSE.txt": "/tripseek/static/js/2.3f772741.chunk.js.LICENSE.txt",
+    "static/media/login.css": "/tripseek/static/media/login-bg-min1.1743a42b.jpg",
+    "static/media/register.css": "/tripseek/static/media/reg-bg-min1.8aaf2067.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9e59033.js",
+    "static/js/2.3f772741.chunk.js",
+    "static/css/main.7e10d5a9.chunk.css",
+    "static/js/main.f6c2ee89.chunk.js"
+  ]
+}
